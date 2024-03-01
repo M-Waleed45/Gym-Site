@@ -1,0 +1,87 @@
+.left{
+    /* border: 2px solid greenyellow; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 9px;
+}
+.left img{
+    width: 100px;
+    filter: invert(100%); /*(filter:invert is a css function used to invert color ratio of the img)*/
+}
+.mid{
+    /* border: 2px solid greenyellow; */
+    display: block;
+    width: 48%;
+    margin: 27px auto;
+}
+.right{
+    /* border: 2px solid greenyellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 40px;
+}
+/* navbar section */
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding:  34px 25px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+/* button corner */
+.btn{
+    margin: 6px 9px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    background-color: black;
+    padding: 2px 13px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer
+}
+.btn:hover{
+    background-color:grey;
+
+}
+/* container */
+.container{
+    /* border: 2px solid greenyellow; */
+    margin: 42px 339px;
+    padding: 8px 99px;
+    width: 33%;
+    display: block;
+    border-radius: 15px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+/* form */
+.form-group input{
+    font-size: 17px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    display: block;
+    width: 315px;
+    padding: 6px;
+    border: 2px solid yellowgreen;
+    margin: 19px auto;
+    border-radius: 25px;
+}
+
